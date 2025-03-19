@@ -11,15 +11,7 @@
     "<div style=\"background:#FFFFEE; color:#440404; padding:8px; border-radius: 4px; text-align: center; font-weight: 500;\">Data Analytics for Strategic Decision Makers Project</div>"
    ]
   },
-  {
-   "attachments": {},
-   "cell_type": "markdown",
-   "id": "ff597d6e-cdac-4d1a-b657-f6d756380ae3",
-   "metadata": {
-    "cell_name": "title_cell"
-   },
-   "source": []
-  },
+  
   {
    "cell_type": "code",
    "execution_count": 147,
