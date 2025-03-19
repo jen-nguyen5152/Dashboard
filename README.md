@@ -41,6 +41,7 @@ I used WordCloud to show the frequency of each term, where it can easily be seen
 ![image](https://github.com/user-attachments/assets/8c0f5325-0ba8-469f-8a36-b8705bb438d5)
 
 To represent these features in respect to each article, I converted the count_dt_matrix using toarray(). Similar to the feature_names, the count_dt_matrix does not show article names. Therefore, I use the keys of my_articles, which is the name of each article at the beginning as the index of this dataframe.
+
 ![image](https://github.com/user-attachments/assets/89584e32-6732-4412-8cd1-8034f9c3523b)
 
 As mentioned, I wanted to use LDA for topic modelling. I created a terms_df with 2 placeholders: count and lda to later add the results of these techniques for comparison.
@@ -76,6 +77,6 @@ From the topic modelling, it was identified that some special Indigenous traditi
 <b>How should the Queensland government design better programs for the Aboriginal and Torres Strait Islander cohort?</b>  
 From the analysis of the Advance Queensland dataset and further exploring unstructured data from Guardian API, it is suggested that the government can turn their focus on individual ethnic groups within the Aboriginal and Torres Strait Islander community to identify different cultures and traditions that can be turned into a tourism opportunity. Further research into the needs of tourists nowadays can be beneficial to the planning and preparation in order to ensure the best experiences for travellers to Brisbane, especially in 2032, which is the peak economic opportunity for Queensland.
 
-#### 6. LIMITATIONS
+# 6. LIMITATIONS
 - First of all, the Advance Queensland dataset provides limited information about the recipients' ethnicity. Therefore, the analysis only captured the programs that were designed for the Indigenous cohort without taking into account invidudual projects run by Indigenous people or bring benefits to the Indigenous community.
 - Secondly, the LDA model is not sufficient to indicate the public's opinion on the Indigenous subject, while this information can be beneficial to decision-makers. 
